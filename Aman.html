@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    
+    <title> Aman Jain HTML Assesment RP </title>
+    <style>
+        .h1{text-align: center;}
+        table, th, td {
+  border:2px solid black;
+}
+    </style>
+
+    <meta name="author" content="aman">
+    <meta name="description" content="HTML RP Assesment">
+    <!--Is also compatible for mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <header>
+    <h1 class="h1">AMAN JAIN</h1>
+    <br>
+    <hr>
+    </header>
+
+
+  <body>
+
+    <section>
+        <h1 class="h1">Headings, Paragraph and Image</h1>
+        <br>
+        <h1>First Header h1</h1>
+        <h2>Second header h2</h2>
+        <h3>Third header h3</h3>
+        <h4>Fourth header h4</h4>
+        <h5>Fifth header h5</h5>
+        <h6>Sixth header h6</h6>
+    </section>
+    <section>
+        <p>This is a paragraph that has been input using the <b>p</b> tag. It can be a single line paragraph or a multi-line paragraph. If we have to change the paragraph then we can do so using the <b>br</b> tag.<br>
+        We can add an image using the <b>img</b> tag.</p>
+        <br>
+    </section>
+    <section>
+        <p>Here, I am adding an image of a Cheetah of dimensions 700x600.</p><br>
+        <img src="sammy-wong-lFMIQ6AiiW8-unsplash.jpg" alt="cheetah_image" width="700" height="600">
+    </section>
+    <hr>
+    <h1 class="h1">Form Layout</h1>
+        <br>
+        <section>
+            <form action="/action_page.php">
+              <fieldset>
+                
+                <legend class="h1">Form with Text Field, Password Field, Radio Buttons, List, CheckBoxes and Submit Button</legend>
+        
+        
+                <div>
+                  <label for="first-name">First Name</label>
+                  <input type="text" id="first-name" required /> <!--Adding required adds a validation on the submit button-->
+                </div>
+                <br>
+        
+                <div>
+                  <label for="last-name">Last Name</label>
+                  <input type="text" id="last-name" />
+                </div>
+                <br>
+
+                <div>
+                    <label>Password</label>
+                    <input type="password" />
+                  </div>
+                  <br>
+        
+        
+                <div>
+                  <label for="gender">Select Gender</label>
+                  <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                  </select>
+                </div>
+                <br>
+        
+                <div>
+                  <label>Hobby</label>
+                  <ul>
+                    <li><label><input type="radio" /> Hobby 1</label></li>
+                    <li><label><input type="radio" /> Hobby 2</label></li>
+                    <li><label><input type="radio" /> Hobby 3</label></li>
+                  </ul>
+                </div>
+                <br>
+        
+        
+                <div>
+                  <label><input type="checkbox" /> Select Checkbox if interested.</label>
+                </div>
+                <br>
+        
+                <div>
+                  <input type="submit" value="Submit" />
+                </div>
+        
+              </fieldset>
+            </form>
+          </section>
+          <hr>
+          <h1 class="h1">Table Layout</h1>
+              <br>
+          <section>
+            <table>
+                <tr>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Email Address</th>
+                </tr>
+                <tr>
+                 <td>Aman</td>
+                 <td>Jain</td>
+                 <td>amanjain@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Abhishek</td>
+                  <td>Sharma</td>
+                  <td>sharmaabhi@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ankit</td>
+                    <td>Anand</td>
+                    <td>ankitanand@gmail.com</td>
+                  </tr>
+              </table>
+          </section>
+          <hr>
+          <h1 class="h1">Video and Audio Element</h1>
+              <br>
+          <section>
+            
+              
+            <h2> 
+                Adding a video in the webpage with controls.
+            </h2> 
+              
+            <video width="500px" height="500px" 
+                controls="controls"/> 
+                  <!--Video is stored locally-->
+                <source src="Rose - 127506.mp4" 
+                    type="video/mp4"> 
+            </video>
+            <br>
+            <h2> 
+                Adding audio in the webpage with controls.
+            </h2><br> 
+            <audio controls> 
+                <!--Audio is stored locally--> 
+                <source src="guitar-electro-sport-trailer-115571.mp3" type="audio/mpeg">   
+              </audio> 
+          </section>
+          <hr>
+    <h1 class="h1">YouTube Video</h1>
+        <br>
+        <section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/O91DT1pR1ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <hr>
+
+    
+
+    </body>
+    </html>
+
